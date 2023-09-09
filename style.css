@@ -3,6 +3,7 @@
 header {
     display: flex;
     justify-content: space-between;
+    padding: 24px;
 }
 header a {
     align-self: center;
@@ -35,6 +36,7 @@ nav ul {
     padding: 24px;
     justify-content: center;
     gap: 1em;
+    margin: 0px;
 }
 
 .main div {
@@ -42,7 +44,7 @@ nav ul {
 }
 
 .first-section {
-    padding-bottom: 48px;
+    padding-bottom: 36px;
     background-color: #1F2937;
     color: white;
 }
@@ -56,7 +58,9 @@ div.main {
     flex-direction: column;
 }
 .main img {
-    border: 1px solid gray;
+    border: 2px solid gray;
+    display: flex;
+    /*margin: 0 auto;*/
 }
 /* page two */
 
@@ -100,7 +104,11 @@ li img {
     color: #1F2937;
 }
 
-
+.quotee {
+    display: flex;
+    justify-content: end;
+    margin-left: 2em;
+}
 /* page four */
 
 .fourth-section {
@@ -127,6 +135,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: .5em;
 }
 
 footer {
